@@ -10,8 +10,6 @@ import userRoutes from "./routes/user.routes.js";
 import connectToMongoDB from "./db/connectToMongoDb.js";
 import {app, server} from './socket/socket.js';
 
-import path from 'path';
-console.log(path.resolve('./db/connectToMongoDb.js'));
 
 
 
